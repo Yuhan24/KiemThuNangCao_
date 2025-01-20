@@ -6,5 +6,6 @@ public class TruyXuat {
             throw new IndexOutOfBoundsException("Nằm ngoài phạm vi !");
         }
         return array[index];
+   
     }
 }
