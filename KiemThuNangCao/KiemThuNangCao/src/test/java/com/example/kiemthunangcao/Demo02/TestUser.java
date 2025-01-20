@@ -16,7 +16,7 @@ public class TestUser {
         User nullprof = null;
         assertThrows(NullPointerException.class, () -> {
             if (nullprof == null) throw new NullPointerException("Hồ sơ là null");
-            nullprof.getName();
+            nullprof.getName();   
         });
     }
 }
